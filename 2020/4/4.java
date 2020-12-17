@@ -128,7 +128,7 @@ public class four {
             return false;
         }
         try {
-            int t = Integer.parseInt(pid);
+            int t = Integer.parseInt(pid,10);
         } catch (NumberFormatException e) {
             return false;
         }
